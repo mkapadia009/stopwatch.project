@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stopwatch</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body class="align">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+            <div class="stopwatch">
+                <div class="row align">
+                    <div class="col-12">
+                        <h1 id="head"></h1>
+                    </div>
+                <div class="row">
+                    <div class="col-4">
+                        <button type="button" class="btn btn-primary" onclick="start();">Start</button>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" class="btn btn-primary" onclick="pause();">Pause</button>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" class="btn btn-primary" onclick="stop();">Stop</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="./app.js" async defer></script>
+    </body>
+</html>

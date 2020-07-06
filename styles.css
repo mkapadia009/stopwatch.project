@@ -1,0 +1,18 @@
+h1{
+   text-align: center;
+   font-family: monospace;
+}
+
+.row{
+    justify-content: center;
+}
+
+.container{
+    padding-top: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    max-width: fit-content;
+}
